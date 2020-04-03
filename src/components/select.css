@@ -1,0 +1,12 @@
+.main-wraper {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+@media (max-width: 786px) {
+  .main-wraper {
+    display: block;
+    width: 45%;
+  }
+}
